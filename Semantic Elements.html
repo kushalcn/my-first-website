@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements</title>
+    <style>
+        body{
+            background-color: #222;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header{
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav{
+            background-color: #2563eb;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 15px;
+        }
+
+        nav a:hover{
+            color: yellow;
+        }
+
+        main{
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        section,
+        article,
+        aside {
+            background-color: rgb(255, 0, 0);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+
+        figure{
+            text-align: center;
+        }
+
+        figure img{
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        figcaption{
+            color: white;
+            margin-top: 10px;
+            text-align: center;
+             font-weight: bolder;
+        }
+
+        footer{
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1{
+            color: #ffbb00;
+        }
+        h2{
+            color: #2600ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>my codingal webpage</h1>
+        <p>welome to my codingal webpage</p>
+    </header>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#about">about</a>
+        <a href="#project">project</a>
+        <a href="#contact">contact</a>
+
+
+    </nav>
+    <main id="Home">
+        <section id="about">
+            <h2>about me</h2>
+            <p><b>this is kushal cn i love
+                codingal and arduino and 
+                 esp32 and other things like
+                  html,css,javascript,etc.</b></p>
+        </section>
+        <article id="project">
+            <h2>My first project</h2>
+            <p><b>i created this project using Semantic Elements there are some examples like nav, article, section, main, href, etc.</b></p>
+
+            <figure><img src="https://placehold.co/400x200?text=My+Coding+Project" alt="Coding project image" width="400"></figure>
+            <figcaption>this is my code</figcaption>
+        </article>
+        <aside>
+            <h2>My interests</h2>
+
+            <ul>
+                <ol>wed Development</ol>
+                <ol>programming</ol>
+                <ol>arduino</ol>
+                <ol>esp32</ol>
+            </ul>
+        </aside>
+
+        <section id="contact">
+
+            <h2>contact Me</h2>
+
+            <p>Email: kushalc2013@gmail.com</p>
+
+            <p>Wedsite:My Coding World </p>
+        </section>
+
+        <footer>
+            <p>Copyright &copy; 2026 My Coding World</p>
+
+            <p>Created By HTML5 Semantic Elements</p>
+        </footer>
+    </main>
+</body>
+</html>
